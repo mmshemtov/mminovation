@@ -1,0 +1,9 @@
+const myFamily = { father: "rabbi shemtov",
+mother: "Mammy",
+sister: "Chaya Mushka",
+brother: "yosef",
+}
+let mySiblings = myFamily.sister;
+mySiblings += myFamily.brother;
+
+let aboutMe = getElementById(aboutme).innerHTML = `My siblings are ${myFamily.sister} and ${myFamily.brother}`;
